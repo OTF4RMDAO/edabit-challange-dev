@@ -18,6 +18,7 @@ console.log(binary(1));  // "1"
 console.log(binary(5));  // "101"
 console.log(binary(10)); // "1010"
 
+
 EXPLANATION:
 We use the toString(2) method to convert the number to a binary string.
 
@@ -36,6 +37,7 @@ function addName(obj, name, value) {
 console.log(addName({}, "Brutus", 300));                 // { Brutus: 300 }
 console.log(addName({ piano: 500 }, "Brutus", 400));     // { piano: 500, Brutus: 400 }
 console.log(addName({ piano: 500, stereo: 300 }, "Caligula", 440)); // { piano: 500, stereo: 300, Caligula: 440 }
+
 
 EXPLANATION:
 We use bracket notation obj[name] = value to add the new key-value pair and return the updated object.
